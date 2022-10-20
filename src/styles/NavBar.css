@@ -1,0 +1,64 @@
+.burgerBtn{
+   padding: 0.3rem;
+   display: none;
+   align-items: center;
+   justify-content: flex-end;
+   /* position:sticky; */
+}
+.burgerBtn button{
+   border: none;
+   color: white;
+   cursor: pointer;
+   background: var(--secondary-color);
+
+}
+
+.burgerBtn  svg {
+   font-size: 2rem; 
+}
+
+@media (max-width: 425px) {
+   .burgerBtn{
+      display:flex;
+   }
+}
+.navbar {
+   background: var(--secondary-color);
+   height: 3rem;
+
+
+}
+
+.links {
+   display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: white;
+
+}
+
+.links a {
+   color: white;
+   text-decoration: none;
+   padding: 1rem;
+}
+
+#open{
+   height: 100vh;
+}
+
+
+#open .links {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   margin-top: 13rem;
+
+}
+
+
+@media (max-width: 425px) {
+   .links {
+      display: none;
+   }
+}

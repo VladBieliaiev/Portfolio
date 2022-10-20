@@ -1,0 +1,16 @@
+:root {
+   --primary-color:#b3d2cd;
+   /* --primary-color:#f4ffc1; */
+
+   --secondary-color: #a4c4be;
+   /* --secondary-color: #d8e753; */
+
+}
+
+
+.App{
+   background-color: var(--primary-color);
+   height: 100vh;
+   text-align: center;
+}
+

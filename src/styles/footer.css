@@ -1,0 +1,20 @@
+.footer{
+   position: sticky;
+   top:100%
+
+}
+
+.linksIcons svg{
+   font-size: 2.5rem;
+   padding: 1rem;
+}
+
+.linksIcons a {
+   /* text-decoration: none; */
+   color: black;
+}
+
+.footer p {
+   padding-bottom: 1rem;
+   font-size: 1.1rem;
+}
